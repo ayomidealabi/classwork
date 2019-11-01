@@ -1,0 +1,42 @@
+a{
+	color: green;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: arial;
+}
+
+h2 + p::first-letter{
+	color: red;
+	height: 60px;
+	font-weight: bold;
+}
+
+.red span{
+	color: red;
+}
+
+.cost > h2 + p::first-letter{
+	font-style: italic;
+	color: yellow;
+	font-size: 60px;
+}
+
+.cost {text-align: center;}
+
+li{list-style-type: lower-alpha;}
+
+body{
+	margin: 30px;
+}

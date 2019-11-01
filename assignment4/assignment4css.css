@@ -1,0 +1,168 @@
+*{
+	font-family: 'Amaranth', sans-serif;
+}
+#container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+ #profile h2, h3, h5{
+	color: gray;
+}
+
+h1{color: gray;}
+
+.head{
+	/*padding: 10px;
+	margin: 10px;*/
+}
+.head a{
+	text-decoration: none;
+	color: gray;
+	margin-bottom:10px;
+	padding: 15px;}
+
+.head img{margin-top: 10px;
+}
+
+#profile{
+	margin: 20px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	bottom: 150px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#profile img{
+	border-radius: 50%;
+}
+
+.picture{
+	background-image:linear-gradient(rgba(0,0,255,0.3),rgba(0,0,255,0.3)),url(images/section-bg.jpg);
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	padding: 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+
+span{
+	color: green;
+}
+
+#yam{background-color: gray;
+padding:10px;}
+
+#gold{
+	display: flex;
+	padding: 10px;
+	font-size: 14px;}
+
+#portfolio, #contact{
+	color: gray;
+}
+
+#frame{
+	margin-left: 60px;
+	box-sizing: border-box;
+/*	padding: auto;*/
+}
+
+article img{
+	width: 33%
+	height auto;
+}
+
+.kid{
+	background-color: white;
+	margin:10px;
+	padding: 20px;
+	border-radius: 20px;
+	display: flex;}
+
+ h2{
+	text-align: center;}
+
+.picture a{
+border-radius: 10%;
+text-decoration: none;
+background-color: green;
+color: white;
+padding:15px;
+}
+
+.kid img{
+	width: 200px;
+	height: 150px;
+}
+
+#map{
+	display: flex;
+	/*margin: 60px;*/
+	/*padding: 10px;
+	box-sizing: border-box;*/
+}
+
+.opay{
+	margin: 10px;
+	padding: 10px;
+	width: 100% 
+}
+
+input[type=text]{
+	border: green solid 1px;
+	width: 90%;
+	box-sizing: border-box;
+	padding: 12px 20px;
+}
+
+
+label{
+	color: green;
+}
+
+select{
+	border-color: green;
+	width: 90%;
+	box-sizing: border-box;
+	padding: 12px 0px;
+}
+
+textarea{
+	width: 90%;
+	border:green solid 1px;
+	height: 200px;
+	padding: 10px;
+	/*argin: 10px;*/
+}
+
+input[type="submit"]{
+	border-radius: 10px;
+	background-color: green;
+	border:none;
+	width: 90px;
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.list {
+	list-style-type: none;
+}
+
+table{
+	border: 1px white solid;
+	border-collapse: collapse;
+	height: 100px;
+}
+td, th, tr{
+	height: 40px;
+}
